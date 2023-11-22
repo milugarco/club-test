@@ -8,18 +8,18 @@ export default defineConfig({
     plugins: [
         react({
             babel: {
-                plugins: ['babel-plugin-macros']
-            }
+                plugins: ['babel-plugin-macros'],
+            },
         }),
-        dynamicImport()
+        dynamicImport(),
     ],
     assetsInclude: ['**/*.md'],
     resolve: {
         alias: {
-            '@': path.join(__dirname, 'src')
-        }
+            '@': path.join(__dirname, 'src'),
+        },
     },
     build: {
-        outDir: 'build'
+        outDir: 'build',
     },
 })
