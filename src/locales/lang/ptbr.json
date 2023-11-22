@@ -1,0 +1,291 @@
+{
+    "signin": {
+        "welcome": "Bem vindo novamente!",
+        "paragraph1": "Por favor, insira seus dados para acessar!",
+        "label": {
+            "username": "Email",
+            "password": "Senha",
+            "remember": "Lembrar-me",
+            "forgotpw": "Esqueceu sua senha?",
+            "login1": "Entrando...",
+            "login": "Entrar",
+            "join": "Ainda não tem conta?",
+            "register": "Cadastre-se",
+            "error": {
+                "username": "Insira o seu email",
+                "password": "Insira sua senha"
+            }
+        },
+        "request": {
+            "401": "Credenciais Inválidas",
+            "500": "Email não cadastrado",
+            "409": "Você precisa concluir o processo de alteração de senha para fazer login"
+        }
+    },
+    "side": {
+        "item1": "Seja bem-vindo à nossa plataforma de eventos!",
+        "item2": "Esteja preparado para criar memórias incríveis e inesquecíveis em cada evento. Juntos, tornaremos este momento único."
+    },
+    "register": {
+        "back": "Voltar",
+        "paragraph": "Crie sua conta",
+        "paragraph1": "Por favor, insira seus dados para se cadastrar!",
+        "paragraph2": "Por favor, tire uma self que apareça seu rosto!",
+        "name": "Nome completo",
+        "dateBirth": "Data de nascimento",
+        "password": "Senha",
+        "password1": "Confirmar Senha",
+        "phone": "Número de telefone",
+        "phone1": "Digite o número de telefone",
+        "step": "Próximo Passo",
+        "step1": "Passo 2...",
+        "join": "Já possui uma conta?",
+        "join1": "Entrar",
+        "document": "Documento",
+        "step2": {
+            "password-paragraph": "A senha deve conter letras maiúsculas, minúsculas, números e caracteres especiais",
+            "join": "Cadastrando...",
+            "join1": "Cadastrar",
+            "lgpd": "Estando em conformidade com a LGPD, ela confirma o seu consentimento nos termos do artigo 7º, inciso I, da Lei 13.709/2018 para o tratamento dos seus dados com segurança e privacidade mediante confirmação do cadastro.",
+            "alert": "Você deve aceitar os termos para continuar.",
+            "error": {
+                "name": {
+                    "void": "Insira seu nome",
+                    "invalid": "Insira apenas letras!"
+                },
+                "dateBirth": "Insira sua data de nascimento",
+                "phone": "Digite o número de telefone valido",
+                "email": {
+                    "void": "Insira seu email",
+                    "alreadyExist": "Email já cadastrado"
+                },
+                "password": "Insira uma senha",
+                "password1": "Senhas não são iguais",
+                "cpf": "Insira um CPF válido"
+            }
+        }
+    },
+    "facial-cam": {
+        "loading": "Carregando a câmera...",
+        "loading1": "Tentando conectar a uma câmera...",
+        "again": "Tentar novamente"
+    },
+    "forgot": {
+        "signin": "Entrar",
+        "back1": "Voltar para ",
+        "paragraph": "Esqueceu sua senha?",
+        "paragraph1": "Por favor, insira seu endereço de e-mail para receber um código de verificação",
+        "paragraph2": "Verifique seu e-mail",
+        "paragraph3": "Enviamos um código de recuperação de senha para o seu e-mail.",
+        "email": "Email",
+        "code": "Código de verificação",
+        "button": "Enviar email",
+        "button1": "Reenviar email",
+        "button3": "Verificar código",
+
+        "error": {
+            "email": "Insira um email válido",
+            "code": "Insira um código válido"
+        }
+    },
+    "reset": {
+        "set": "Definir senha",
+        "different": "Sua nova senha deve ser diferente da senha anterior",
+        "newPassword": "Nova senha",
+        "character": "A senha deve conter letras maiúsculas, minúsculas, números e caracteres especiais",
+        "confirm": "Confirme a senha",
+        "Redefinition": "Redefinição completa",
+        "buttonReset": "Redefinir",
+        "buttonLoading": "Redefinindo",
+        "continue": "continue",
+        "success": "Senha definida com sucesso",
+
+        "error": {
+            "passwordRequired": "Insira sua senha",
+            "passwordMinLength": "A senha deve ter no mínimo 8 caracteres",
+            "passwordComplexity": "A senha deve conter letra minúscula, letra maiúscula, um número e caractere especial",
+            "passwordMismatch": "Suas senhas não coincidem",
+            "404": "Erro sua senha deve ser diferente da senha antiga"
+        }
+    },
+    "home": {
+        "enable": "Aberto",
+        "disable": "Fechado",
+        "paragraph": "Meus ingressos",
+        "search": "Pesquisar",
+        "noTicketFound": "Nenhum ingresso encontrado!",
+        "status": {
+            "open": "Aberto",
+            "closed": "Fechado"
+        }
+    },
+    "dashClub": {
+        "button": {
+            "back": "Voltar"
+        },
+        "opppsTitle": "Opppps!",
+        "opppsMessage": "Me parece que o seu convite não está mais válido, contate o organizador do evento para mais informações."
+    },
+    "notification": {
+        "tittle": "Notificações"
+    },
+
+    "footer": {
+        "copyright": " | Todos os direitos reservados."
+    },
+    "navigation": {
+        "ticket": "Ingressos"
+    },
+    "tooltip": {
+        "list": "Ver em lista",
+        "grid": "Ver em grade",
+        "sort": "Ordenar por"
+    },
+    "profile-settings": {
+        "formName": "Configurações do Perfil",
+        "updatePassword": {
+            "currentPassword": "Insira sua senha atual",
+            "newPassword": {
+                "password": "Insira sua nova senha",
+                "comfirmPassword": "Confirme sua nova senha",
+                "passwordDontMatch": "Suas senhas não coincidem"
+            },
+            "regex": "A senha deve conter letra minúscula, letra maiúscula, um número e caractere especial"
+        },
+        "formUpdate": {
+            "userName": {
+                "name": "Nome de usuário",
+                "placeholder": "nome de usuário"
+            },
+            "uploadPhoto": {
+                "label": "Faça upload da foto de perfil:"
+            },
+            "changePassword": {
+                "currentPassword": {
+                    "label": "Insira sua senha atual",
+                    "placeholder": "Digite"
+                },
+                "newPassword": {
+                    "label": "Insira sua nova senha",
+                    "placeholder": "Digite"
+                },
+                "confirmPassword": {
+                    "label": "Confirme sua nova senha",
+                    "placeholder": "Digite"
+                },
+                "functionsPassword": {
+                    "omit": "Ocultar Campos de Senha",
+                    "confirmPassword": "Deseja alterar sua senha? Clique aqui"
+                }
+            },
+            "button": "Salvar"
+        }
+    },
+
+    "authGuest": {
+        "loading": "Carregando o seu convite...",
+        "inviteInvalid": "Me parece que o seu convite não está mais válido, contate o organizador do evento para mais informações.",
+        "newInvite": "Você recebeu um novo convite para participar do",
+        "dateUndefined": "Data não definida ainda",
+        "ticketButton": "Ver ticket",
+        "acceptButton": "Aceitar convite",
+        "nextButton": "Próximo",
+        "backButton": "Voltar",
+        "select": "Selecione",
+
+        "camStep": {
+            "title": "Tire uma selfie para cadastrar sua facial",
+            "loading": "Carregando a câmera...",
+            "loading1": "Tentando conectar a uma câmera...",
+            "tryAgainButton": "Tirar novamente"
+        },
+
+        "uploadProfilePhotoStep": {
+            "title": "Faça upload de uma foto para perfil",
+            "paragraph": "Essa foto ficará disponível em sua página de apresentação no evento",
+            "paragraph1": "Suportável: jpeg ou png de no máx 5mb",
+            "uploadButton": "Upload",
+            "deleteButton": "Excluir",
+            "skipButton": "Pular"
+        },
+
+        "document": {
+            "write": "Digite",
+            "report": "Informe",
+            "title": "Selecione um tipo de documento",
+            "label": {
+                "passport": "Passporte",
+                "document": "Documento"
+            },
+            "error": {
+                "document1": "Digite seu documento!",
+                "document2": "O documento deve ter no máximo 50 caracteres!",
+                "document3": "Selecione uma opção!"
+            },
+            "pronoun": {
+                "a": "a",
+                "o": "o"
+            }
+        },
+
+        "fiveStep": {
+            "cnhPhoto": "Foto da CNH aberta",
+            "cnhUpload": "Upload da CNH digital",
+            "rgPhoto1": "Foto única do RG aberto",
+            "rgPhoto2": "Foto do RG frente e verso",
+            "passport": "Foto do passaporte aberto"
+        },
+
+        "rg": {
+            "paragraph": "Tire uma foto do seu RG aberto",
+            "paragraph1": "1 - Tire uma foto da frente do seu RG",
+            "paragraph2": "2 - Tire uma foto do verso do seu RG",
+            "verseButton": "Tirar foto Verso",
+            "restartButton": "Recomeçar"
+        },
+
+        "cnh": {
+            "paragraph": "Tire uma foto da sua CNH aberta",
+            "paragraph1": "Envie sua CNH",
+            "paragraph3": "Faça upload da sua CNH digital em PDF",
+            "paragraph4": "Upload de .pdf concluido",
+            "paragraph5": "Suportável: .pdf de no máx 5mb",
+            "takePhotoButton": "Tirar foto",
+            "uploadButton": "Fazer Upload",
+            "valid": {
+                "valid1": "Faça o upload de arquivo .pdf",
+                "valid2": "Sua imagem deve ter no máximo 5mb!"
+            }
+        },
+
+        "passport": {
+            "paragraph1": "Tire uma foto do seu Passaporte"
+        },
+
+        "loadingFinishStep": {
+            "paragraph1": "Aguarde!",
+            "paragraph2": "Gerando ingresso...",
+            "error": {
+                "error1": "Erro ao buscar participante"
+            }
+        },
+
+        "error": {
+            "message": "Erro interno, tente novamente mais tarde",
+            "message1": "Erro ao enviar foto tente novamente mais tarde!",
+            "valid": "Faça o upload de arquivos .jpeg ou .png",
+            "valid1": "Sua imagem deve ter no máximo 5mb!"
+        }
+    },
+
+    "CardTicket": {
+        "Date": "Data",
+        "Time": "Hora",
+        "Function": {
+            "Download": "Baixar",
+            "Action": "Clique no card para virar"
+        },
+        "Front": "Frente",
+        "Back": "Verso"
+    }
+}

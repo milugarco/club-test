@@ -1,0 +1,278 @@
+{
+    "signin": {
+        "welcome": "Welcome Back!",
+        "paragraph1": "Please enter your credentials to sign in!",
+        "label": {
+            "username": "Email",
+            "password": "Password",
+            "remember": "Remember me",
+            "forgotpw": "Forgot your Password?",
+            "login1": "Logging in...",
+            "login": "Log-in",
+            "join": "Not a member yet?",
+            "register": "Create an account",
+            "error": {
+                "username": "Insert your email",
+                "password": "Insert your password",
+                "500": "Email not registered"
+            }
+        },
+        "request": {
+            "401": "Invalid Credentials",
+            "500": "Try again later",
+            "409": "You need to complete the password change process to log in"
+        }
+    },
+    "side": {
+        "item1": "Welcome to our events platform!",
+        "item2": "Be prepared to create incredible and unforgettable memories at each event. Together, we will make this moment unique."
+    },
+    "register": {
+        "back": "Back",
+        "paragraph": "Create a new account",
+        "paragraph1": "Please fill in to register",
+        "paragraph2": "Please take a selfie that shows your face!",
+        "name": "Full name",
+        "dateBirth": "Date of birth",
+        "password": "Password",
+        "password1": "Confirm Password",
+        "phone": "Phone number",
+        "phone1": "Enter your phone number",
+        "step": "Next Step",
+        "step1": "Step 2...",
+        "join": "Already a member?",
+        "join1": " Join",
+        "document": "Document",
+        "step2": {
+            "password-paragraph": "The password must contain uppercase, lowercase letters, numbers and special characters",
+            "join": "Creating account...",
+            "join1": "Create account.",
+            "lgpd": "If the LGPD is in compliance, it confirms your consent in accordance with Article 7, item I, of Law 13.709/2018 for the processing of your data with security and privacy upon confirmation of registration.",
+            "alert": "You must accept the terms to continue.",
+            "error": {
+                "name": {
+                    "void": "Insert your name",
+                    "invalid": "Type only letters!"
+                },
+                "dateBirth": "Enter your date of birth",
+                "phone": "Insert a valid phone number",
+                "email": {
+                    "void": "Insert an email address",
+                    "alreadyExist": "E-mail already registered"
+                },
+                "password": "Insert your password",
+                "password1": "Passwords don't match",
+                "cpf": "Insert a valid CPF"
+            }
+        }
+    },
+    "facial-cam": {
+        "loading": "Loading camera...",
+        "loading1": "Trying to connect to a camera...",
+        "again": "Try again"
+    },
+    "forgot": {
+        "signin": "Login",
+        "back1": "Back to ",
+        "paragraph": "Forgot your Password?",
+        "paragraph1": "Please enter your email address to receive a verification code.",
+        "paragraph2": "Check your email",
+        "paragraph3": "We have sent a password recovery code to your email.",
+        "email": "Email",
+        "code": "verification code",
+        "button": "Send email",
+        "button1": "Resend email",
+        "button3": "Check code",
+        "error": {
+            "email": "Insert a valid email address",
+            "code": "Insert a valid code"
+        }
+    },
+    "reset": {
+        "set": "Set password",
+        "different": "Your new password must be different from your previous password",
+        "newPassword": "New Password",
+        "character": "The password must contain uppercase, lowercase letters, numbers and special characters",
+        "confirm": "Confirm password",
+        "Redefinition": "Reset complete",
+        "buttonReset": "Reset",
+        "buttonLoading": "Redefining",
+        "continue": "continue",
+        "success": "Your password has been successfully reset",
+        "error": {
+            "passwordRequired": "Enter your password",
+            "passwordMinLength": "Password must be at least 8 characters long",
+            "passwordComplexity": "Password must contain a lowercase letter, an uppercase letter, a number, and a special character",
+            "passwordMismatch": "Your passwords do not match",
+            "404": "Error when changing password already using this password"
+        }
+    },
+    "home": {
+        "enable": "Open",
+        "disable": "Closed",
+        "paragraph": "My tickets",
+        "search": "Search",
+        "noTicketFound": "No ticket found!",
+        "status": {
+            "open": "Open",
+            "closed": "Closed"
+        }
+    },
+    "dashClub": {
+        "button": {
+            "back": "Back"
+        },
+        "opppsTitle": "Opppps!",
+        "opppsMessage": "It seems that your invitation is no longer valid, contact the event organizer for more information."
+    },
+    "notification": {
+        "tittle": "Notification"
+    },
+    "footer": {
+        "copyright": " | All rights reserved."
+    },
+    "navigation": {
+        "ticket": "Tickets"
+    },
+    "tooltip": {
+        "list": "List view",
+        "grid": "Grid view",
+        "sort": "Sort"
+    },
+    "profile-settings": {
+        "formName": "Profile Settings",
+        "updatePassword": {
+            "currentPassword": "Enter your current password",
+            "newPassword": {
+                "password": "Enter your new password",
+                "confirmPassword": "Confirm your new password",
+                "passwordDontMatch": "Your passwords don't match"
+            },
+            "regex": "Password must contain lowercase letter, uppercase letter, a number, and a special character"
+        },
+        "formUpdate": {
+            "userName": {
+                "name": "Username",
+                "placeholder": "username"
+            },
+            "uploadPhoto": {
+                "label": "Upload profile picture:"
+            },
+            "changePassword": {
+                "currentPassword": {
+                    "label": "Enter your current password",
+                    "placeholder": "Type"
+                },
+                "newPassword": {
+                    "label": "Enter your new password",
+                    "placeholder": "Type"
+                },
+                "confirmPassword": {
+                    "label": "Confirm your new password",
+                    "placeholder": "Type"
+                },
+                "functionsPassword": {
+                    "omit": "Hide Password Fields",
+                    "confirmPassword": "Want to change your password? Click here"
+                }
+            },
+            "button": "Save"
+        }
+    },
+    "authGuest": {
+        "loading": "Loading your invitation...",
+        "inviteInvalid": "It seems to me that your invitation is no longer valid, contact the event organizer for more information..",
+        "newInvite": "You have received a new invitation to participate in the",
+        "dateUndefined": "Date not defined yet",
+        "ticketButton": "View ticket",
+        "acceptButton": "Accept invite",
+        "nextButton": "Next",
+        "backButton": "Back",
+        "select": "Select",
+        "camStep": {
+            "title": "Take a selfie to register your face",
+            "loading": "Loading camera...",
+            "loading1": "Trying to connect to a camera...",
+            "tryAgainButton": "Try again"
+        },
+        "uploadProfilePhotoStep": {
+            "title": "Upload a profile photo",
+            "paragraph": "This photo will be available on your presentation page at the event",
+            "paragraph1": "Supportable: jpeg or png max 5mb",
+            "uploadButton": "Upload",
+            "deleteButton": "Delete",
+            "skipButton": "Skip"
+        },
+        "document": {
+            "write": "Type it",
+            "report": "Type it",
+            "title": "Select a document type",
+            "label": {
+                "passport": "Passport",
+                "document": "Document"
+            },
+            "error": {
+                "document1": "Enter your document!",
+                "document2": "The document must have a maximum of 50 characters!",
+                "document3": "Select an option!"
+            },
+            "pronoun": {
+                "a": "the",
+                "o": "the"
+            }
+        },
+        "fiveStep": {
+            "cnhPhoto": "Photo of open CNH",
+            "cnhUpload": "Uploading your digital CNH",
+            "rgPhoto1": "Single photo of open RG",
+            "rgPhoto2": "Photo of RG front and back",
+            "passport": "Open passport photo"
+        },
+        "rg": {
+            "paragraph": "Take a photo of your RG open",
+            "paragraph1": "1 - Take a photo of the front of your RG",
+            "paragraph2": "2 - Take a photo of the back of your RG",
+            "verseButton": "Take photo Back",
+            "restartButton": "Restart"
+        },
+        "cnh": {
+            "paragraph": "Take a photo of your open CNH",
+            "paragraph1": "Send your CNH",
+            "paragraph3": "Upload your digital CNH in PDF",
+            "paragraph4": ".pdf upload complete",
+            "paragraph5": "Supportable: .pdf of max 5mb",
+            "takePhotoButton": "Take a picture",
+            "uploadButton": "Upload",
+            "valid": {
+                "valid1": "Upload .pdf file",
+                "valid2": "Your image must be a maximum of 5mb!"
+            }
+        },
+        "passport": {
+            "paragraph1": "Take a photo of your Passpor"
+        },
+        "loadingFinishStep": {
+            "paragraph1": "Wait!",
+            "paragraph2": "Generating ticket...",
+            "error": {
+                "error1": "Error when searching for participant"
+            }
+        },
+        "error": {
+            "message": "Internal error, please try again later",
+            "message1": "Error sending photo, try again later!",
+            "valid": "Upload .jpeg or .png files",
+            "valid1": "Your image must be a maximum of 5mb!"
+        }
+    },
+    "CardTicket": {
+        "Date": "Date",
+        "Time": "Time",
+        "Function": {
+            "Download": "Download",
+            "Action": "Click the card to flip"
+        },
+        "Front": "Front",
+        "Back": "Back"
+    }
+}

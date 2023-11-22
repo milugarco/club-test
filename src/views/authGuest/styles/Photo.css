@@ -1,0 +1,24 @@
+.fade-in-down {
+  animation-name: fade-in-down;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(6000%);
+    opacity: 1;
+  }
+}
+
+
+.assinatura-user-name-terms{
+  font-family: 'Zeyada', cursive;
+
+
+}

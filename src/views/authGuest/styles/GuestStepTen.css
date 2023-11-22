@@ -1,0 +1,135 @@
+
+
+
+
+
+
+
+
+
+ .cir1{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   position:absolute;
+   margin:-230px 170px 100px -20px;
+ }
+ .cir2{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   position:absolute;
+   bottom: -20px;
+   left: -20px;
+ }
+  .cir3{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   position:absolute;
+   margin:-230px -20px 100px 170px;
+ }
+  .cir4{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   position:absolute;
+   bottom: -20px;
+   right: -20px;
+ }
+   .cir5{
+   width:30px;
+   height:30px;
+   border-radius:50%;
+   position:absolute;
+   top: -20px;
+   left: -18px;
+ }
+ .cir6{
+   width:30px;
+   height:30px;
+
+   border-radius:50%;
+   position:absolute;
+   top: -20px;
+   right: -18px;
+ }
+
+ .cir7{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	position:absolute;
+	bottom: 80px;
+	left: -18px;
+  }
+  .cir8{
+	width:30px;
+	height:30px;
+ 
+	border-radius:50%;
+	position:absolute;
+	bottom: 80px;
+	right: -18px;
+  }
+
+
+.left:after,
+.right:before {
+content: "";
+	display:block;
+	height: 24px;
+	width: auto;
+	left: 1px;
+	right: 0;
+	position: absolute;
+	background-repeat: repeat-x;
+}
+
+.left:after {
+
+top: -18px;
+	background-image: linear-gradient(-135deg, transparent 70%, #6B21A8 0%),
+					  linear-gradient(135deg, transparent 70%, #6B21A8 0%);
+	background-position: 0 50%,  0 50%;
+	background-size: 11px 20px, 11px 20px;
+}
+
+
+
+/* .left:before {
+bottom: -21px;
+background-image: linear-gradient(-45deg, transparent 70%, #D1D5DB 0%),
+linear-gradient(45deg, transparent 70%, #D1D5DB 0%);
+background-position: 0 50%, 0 50%;
+background-size: 11px 20px, 11px 20px;
+} */
+
+.right:before {
+bottom: -21px;
+background-image: linear-gradient(-45deg, transparent 70%, #D1D5DB 0%),
+linear-gradient(45deg, transparent 70%, #D1D5DB 0%);
+background-position: 0 50%, 0 50%;
+background-size: 11px 20px, 11px 20px;
+}
+
+
+
+.animate-ticket{
+	animation: bounce 1s ease forwards;
+	transform-origin: center bottom;
+  }
+  
+  @keyframes bounce {
+	0% {
+	  transform: translateY(0) rotate(0deg);
+	}
+	50% {
+	  transform: translateY(20px) rotate(5deg);
+	}
+	100% {
+	  transform: translateY(30px) rotate(0deg);
+	}
+  }
+
+  

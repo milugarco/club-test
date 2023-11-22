@@ -1,0 +1,25 @@
+.modal-content {
+    background-color: #6b21a8;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 300px auto;
+}
+
+.modal-close-button {
+    background-color: #0f172a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+}
+

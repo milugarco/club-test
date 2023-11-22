@@ -1,0 +1,41 @@
+.cardTicket {
+  display: flex;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  width: 289px;
+  perspective: 1000px;
+  transform-origin: center;
+}
+
+.cardTicket.flipped {
+  transform: rotateY(0.5turn); /* Use 0.5turn para girar 180 graus no lugar */
+}
+
+.cardTicket-front,
+.cardTicket-back {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  backface-visibility: hidden;
+}
+
+.cardTicket-back {
+  transform: rotateY(0.5turn); /* Use a mesma rotação aqui */
+}
+
+.long-text-animation {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(70%);
+  }
+  50% {
+    transform: translateX(-70%);
+  }
+  100% {
+    transform: translateX(70%);
+  }
+}
